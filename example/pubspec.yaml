@@ -20,7 +20,7 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  crop:
+  widget_crop:
     path: ../
   url_launcher: any
   image_gallery_saver: any

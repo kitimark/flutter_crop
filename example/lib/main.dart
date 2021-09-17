@@ -1,7 +1,7 @@
 import 'dart:ui' as ui;
 import 'package:app/centered_slider_track_shape.dart';
 import 'package:flutter/material.dart';
-import 'package:crop/crop.dart';
+import 'package:widget_crop/crop.dart';
 import 'package:url_launcher/url_launcher.dart';
 import 'package:image_gallery_saver/image_gallery_saver.dart';
 import 'package:permission_handler/permission_handler.dart';
@@ -30,7 +30,7 @@ class MyHomePage extends StatefulWidget {
 }
 
 class _MyHomePageState extends State<MyHomePage> {
-  final controller = CropController(aspectRatio: 1000 / 667.0);
+  final controller = CropController(aspectRatio: 1 / 1);
   double _rotation = 0;
   BoxShape shape = BoxShape.rectangle;
 
