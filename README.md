@@ -4,6 +4,12 @@
 
 A Flutter package for cropping any widget, not only images. This package is entirely written in Dart and supports Android, iOS, Web and Desktop. Also, because of being independent from native platform, it does not increase size of your apps output (e.g. apk).
 
+## Note
+What this fork made for?
+* Disable image rotation
+* Fix image dragable
+* THIS MY OWN PROJECT ONLY
+
 ## Supported platforms
 * Flutter Android
 * Flutter iOS
